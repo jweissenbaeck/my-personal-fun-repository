@@ -1,0 +1,28 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: rgb(29, 207, 247);
+    padding: 15px;
+}
+
+.navbar a {
+    padding: 5px;
+    margin:10px;
+    border-radius: 5px;
+    font-size: 100%;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    color: rgb(20, 20, 20);
+}
