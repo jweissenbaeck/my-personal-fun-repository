@@ -1,28 +1,43 @@
 * {
     margin:0;
     padding: 0;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: start;
-    background-color: rgb(29, 207, 247);
+    background-color: rgb(155, 155, 155);
     padding: 15px;
+    margin-bottom: 30px;
 }
 
-.navbar a {
+.navbar .link {
     padding: 5px;
     margin:10px;
     border-radius: 5px;
     font-size: 100%;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    border: 1px solid;
 }
 
+.navbar .link:hover {
+    color: rgb(247, 247, 247);
+}
 
-.navbar a:hover {
-    color: rgb(20, 20, 20);
+.navbar .logo-img {
+    margin-left: 1250px;
+    filter: invert(100%);
+}
+
+.navbar img:hover {
+    filter: invert(100%);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
 }
