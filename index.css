@@ -8,7 +8,7 @@
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content:center;
   background: linear-gradient(#cdd6e7, #c1c9d6);
   padding: 15px;
   margin-bottom: 30px;
@@ -32,7 +32,7 @@
 }
 
 .navbar .logo-img {
-  margin-left: 1250px;
+  margin-left: 50px;
   filter: invert(100%);
 }
 
@@ -45,6 +45,7 @@
   justify-content: start;
   margin-left: 30%;
   margin-right: 30%;
+  border: 1px solid;
 }
 
 .info-card img {
