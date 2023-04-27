@@ -32,3 +32,20 @@ body {
     color: #00abf0
 
 }
+
+.info-card {
+    color: #ededed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-card h1 {
+    font-size: 300%;
+}
+
+.info-card h2 {
+    font-size: 200%;
+    color: #00abf0;
+
+}
